@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class DataArray
 {
@@ -30,5 +31,10 @@ public class DataArray
 
         System.out.println("The sum of the random array is: " + sum);
         System.out.println("The average of the random array is: " + average);
+
+        Scanner in = new Scanner(System.in);
+        int userInput = SafeInput.getRangedInt(in,"Enter a number between ", 1, 100 );
+
+        System.out.println("The number you entered was: " + userInput);
     }
 }
