@@ -236,6 +236,8 @@ public class SafeInput
         return response;
     }
 
+
+
     /**
      * Get pretty header
      *
